@@ -12,7 +12,7 @@ import UIKit
 extension UIViewController {
     
     func showLoadingIndicator(){
-        let indicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let indicatorView = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
         indicatorView.tag = 33990
         var centralPoint = self.view.center
         centralPoint.x = centralPoint.x - indicatorView.frame.size.width/2
